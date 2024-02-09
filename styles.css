@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+#dogCont{
+    width: 100%;
+    height: 400px;
+  
+}
+#dogCont img{
+    width: 100%;
+    height: 100%;
+}
+
+#btn{
+    width: 100%;
+
+}
+#button{
+    height: fit-content;
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    background-color: rgb(29, 29, 255);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+@media(width<769px){
+    .container{
+        width: 42%;
+    }
+    #dogCont{
+        width: 100%;
+        height: 300px;
+      
+    }
+    #button{
+        font-size: 14px;
+    }
+}
+
+@media(width<630px){
+    .container{
+        width: 40%;
+    }
+    #dogCont{
+        width: 100%;
+        height: 250px;
+      
+    }
+    #button{
+        font-size: 13px;
+        padding: 13px 0px;
+    }
+}
+
+@media(width<410px){
+    .container{
+        width: 40%;
+    }
+    #dogCont{
+        width: 100%;
+        height: 200px;
+      
+    }
+    #button{
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
+}
